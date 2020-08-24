@@ -36,7 +36,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- #icon: envelope
+#- icon: envelope
   #icon_pack: fas
   #link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
@@ -59,9 +59,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-#user_groups:
-#- Researchers
-#- Visitors
+user_groups:
+- Researchers
+- Visitors
 ---
 
 Siqi Zheng is a student of Applied Statistics/Economics at University of Toronto, St. George Campus. His research interests include Applied Statistics in Finance. financial models in Portfolio Management and the combined field of Philosophy and Data Science. He is a Dean's List Scholar in UofT. He receives The John A Sawyer Scholarship and The Roy Alvin Hope Scholarship from Victoria College.
