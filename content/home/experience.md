@@ -18,27 +18,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
+  title = "Volunteer"
+  company = "Clinton Street Junior Public School"
+  company_url = "https://schoolweb.tdsb.on.ca/clintonstreet"
+  location = "Toronto"
+  date_start = "2018-09-01"
+  date_end = "2019-05-31"
+  description = """Administrated the school library and the maker space in Clinton Street Junior Public School for more than 60 hours.
   
-  * Analysing
-  * Modelling
-  * Deploying
+  Selected Contributions:
+  
+  * Increased efficiency of searching books by 40% through reorganizing the school library
+  * Reduced fire risks and financial costs by reallocating the teaching materials and books
+  * Developed strategies to enhance the experience of students at different levels, for example, Scaffolding with Universal Design Learning (UDL)
+  * Implemented various designs to teach STEM knowledge and guide students to understand scientific concepts
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+title = "Intern"
+  company = "Radio Foshan Media Company"
+  company_url = "http://www.946.com.cn/"
+  location = "Foshan"
+  date_start = "2018-05-01"
+  date_end = "2018-08-31"
+  description = """Handled data visualization via Tableau for quarterly meeting and switched to the department of digital marketing, investigating topics to expanding the influence on social media and predicting user behaviors from the available data
+  
+  Selected Contributions:
+  
+  * Collaborated with data analysts to clean and transformed business data with innovative strategies
+  * Analyzed data from a WeChat subscription account with 10k followers and extracted information about user preference based on the daily data
+  * Self-driven to learn advanced techniques and absorbed knowledge in Excel and Tableau
+  * Applied data visualization techniques to present data creatively
+  * Received high evaluation from the Hiring Manager
+  """
 
 +++
