@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Siqi Zheng
+# title: Siqi Zheng
 
 # Username (this should match the folder name)
 authors:
@@ -15,7 +15,7 @@ role: Student of Applied Statistics with focuses on Economics and Physics
 # Organizations/Affiliations
 organizations:
 - name: University of Toronto
-  url: "https://www.utoronto.ca/"
+  url: https://www.utoronto.ca/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Financial Application of Statistics and the ethical implications of Statistics. I am also a Tarot reader.
@@ -36,15 +36,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-  #icon_pack: fas
-  #link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+  # icon_pack: fas
+  # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/Siqi_Zheng_UTSG
-- #icon: google-scholar
-  #icon_pack: ai
-  #link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: google-scholar
+  # icon_pack: ai
+  # link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/siqi-zheng
@@ -59,9 +59,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
 Siqi Zheng is a student of Applied Statistics/Economics at University of Toronto, St. George Campus. His research interests include Applied Statistics in Finance. financial models in Portfolio Management and the combined field of Philosophy and Data Science. He is a Dean's List Scholar in UofT. He receives The John A Sawyer Scholarship and The Roy Alvin Hope Scholarship from Victoria College.
