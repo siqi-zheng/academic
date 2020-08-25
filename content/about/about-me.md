@@ -54,7 +54,7 @@ subtitle = ""
 I am originally from Guangdong, China and am a student from [University of Toronto](https://www.utoronto.ca/). I specialized in Applied Statistics with a focus on Physics and majored in Economics. Prior to joining in the Applied Statistics Program, I was part of [Education Stream (formerly Ryerson Stream)](https://www.vic.utoronto.ca/future-students/vic-one/), Victoria College. During my first year, I was also a volunteer libarian teacher/STEM teacher in [Clinton Street Junior Public School](https://schoolweb.tdsb.on.ca/clintonstreet).
 
 
-<img src="library1.jpg" class="center-block" alt="Library Decoration">
+<img src="library1.jpg" class="center" alt="Library Decoration" style="width:60%">
 
 
 I also explored my interests in Finance when I received training in [China Life International Financial Academy](https://www.chinalife.com.hk/) and won the first place in the competition. The financial models about optimization consumers' utilities under constraints really intrigued me, so I took more courses about quantitative financial analysis on [DataCamp](https://www.datacamp.com/). While at UofT, I became an avid user of the statistical programming language R and programming language Python. I developed a passion for programming and still on my way to learn more about SQL with database.
