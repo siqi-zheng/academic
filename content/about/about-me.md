@@ -60,13 +60,13 @@ I am originally from Guangdong, China and am a student from [University of Toron
 I also explored my interests in Finance when I received training in [China Life International Financial Academy](https://www.chinalife.com.hk/) and won the first place in the competition. The financial models about optimization consumers' utilities under constraints really intrigued me, so I took more courses about quantitative financial analysis on [DataCamp](https://www.datacamp.com/). While at UofT, I became an avid user of the statistical programming language R and programming language Python. I developed a passion for programming and still on my way to learn more about SQL with database.
 
 
-<center><img src="finance1.jpg" class="center-block" alt="Photo with group members"></center>
+<center><img src="finance1.jpg" class="center-block" alt="Photo with group members" style="width:60%"></center>
 
 
 I am interested in Tarot and have self-studied for a year about reading Waite Tarot because of my personal interest in the spirituality from the New Age movement. I once doubted that Tarot was merely a probability game, but that fact that I picked up the same card again and again during a few months seemed to be against my original Frequentist's view, suggesting that there was indeed some interconnections among people. Since then, my enthusiasm in this scenario motivates me to learn more about Philosophy, Statistics and the Tarot.
 
 
-<center><img src="tarot1.jpg" class="center-block" alt="Cards I love"></center>
+<center><img src="tarot1.jpg" class="center-block" alt="Cards I love" style="width:60%"></center>
 
 
 Thank you so much for reading.
