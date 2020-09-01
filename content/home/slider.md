@@ -15,6 +15,26 @@ height = ""
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
+
+[[item]]
+  title = "Honor & Awards"
+  content = "Dean's List Scholar and Victoria College Scholarship student."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+   overlay_color = "#555"  # An HTML color value.
+   overlay_img = "headers/honor-header.jpg"  # Image path relative to your `static/img/` folder.
+   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+  cta_label = "Honors & Awards"
+  cta_url = "/honor"
+  cta_icon_pack = "fas"
+  cta_icon = "award"
+
 [[item]]
   title = "Python"
   content = "Experience in analyzing data and Physics data with SciPy, NumPy and pandas. Received certificates in ARIMA models amd Time Series Analysis in Python on DataCamp."
