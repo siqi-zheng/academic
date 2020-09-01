@@ -29,7 +29,7 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "see relevant certificates"
+  cta_label = "See relevant certificates"
   cta_url = "/python_certificate"
   cta_icon_pack = "fab"
   cta_icon = "python"
@@ -43,7 +43,7 @@ height = ""
   overlay_img = "headers/r-header.jpg"  
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
-  cta_label = "see relevant certificates"
+  cta_label = "See relevant certificates"
   cta_url = "/r_certificate"
   cta_icon_pack = "fab"
   cta_icon = "r-project"
@@ -57,7 +57,7 @@ height = ""
   overlay_img = "headers/other-header.jpg"  
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
-  cta_label = "see relevant certificates"
+  cta_label = "See relevant certificates"
   cta_url = "/other_certificate"
   cta_icon_pack = "fas"
   cta_icon = "database"
