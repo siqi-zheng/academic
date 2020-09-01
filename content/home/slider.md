@@ -22,9 +22,9 @@ height = ""
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  # overlay_color = "#666"  # An HTML color value.
+   overlay_color = "#555"  # An HTML color value.
    overlay_img = "headers/python3-header.jpg"  # Image path relative to your `static/img/` folder.
-  # overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
@@ -39,9 +39,9 @@ height = ""
   content = "Experience in using Shiny Dashboard and visualization techniques in a DataFest project @UofT."
   align = "center"  
 
-  # overlay_color = "#555"  # An HTML color value.
+  overlay_color = "#555"  # An HTML color value.
   overlay_img = "headers/r-header.jpg"  
-  # overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
   cta_label = "see relevant certificates"
   cta_url = "/r_certificate"
@@ -53,9 +53,9 @@ height = ""
   content = "Have basic knowledge in SQL and Tableau. Self-motivated to learn more."
   align = "center"  
 
-  # overlay_color = "#333"  # An HTML color value.
+  overlay_color = "#555"  # An HTML color value.
   overlay_img = "headers/other-header.jpg"  
-  # overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
   cta_label = "see relevant certificates"
   cta_url = "/other_certificate"
