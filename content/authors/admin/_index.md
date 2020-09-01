@@ -39,6 +39,9 @@ social:
 # - icon: envelope
   # icon_pack: fas
   # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/siqi-zheng-uoft/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/Siqi_Zheng_UTSG
