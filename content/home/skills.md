@@ -33,6 +33,12 @@ subtitle = ""
   description = ""
   
 [[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Tableau"
+  description = "" 
+  
+[[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
