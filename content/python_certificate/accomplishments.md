@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 1, 2006"
+date_format = "Jan 2, 2006"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -21,6 +21,35 @@ date_format = "Jan 1, 2006"
 [[item]]
   organization = "DataCamep"
   organization_url = "https://www.datacamp.com/"
+  title = "Python Data Science Toolbox (Part 1)"
+  url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-1"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/e4c939a93e674e69dbc4708c29838d2e3ebb5c57"
+  date_start = "2019-06-02"
+  date_end = ""
+  description = ""
+ 
+[[item]]
+  organization = "DataCamep"
+  organization_url = "https://www.datacamp.com/"
+  title = "Manipulating DataFrames with pandas"
+  url = "https://learn.datacamp.com/courses/manipulating-dataframes-with-pandas"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/1fb48bfc1ac7097c4e909eb729360a0eba8cc428"
+  date_start = "2019-06-09"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "DataCamep"
+  organization_url = "https://www.datacamp.com/"
+  title = "Python Data Science Toolbox (Part 2)"
+  url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-2"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/b07d434ad66d873aa4fe68b21caaebcf2f6c78a0"
+  date_start = "2019-06-20"
+  date_end = ""
+  description = ""  
+[[item]]
+  organization = "DataCamep"
+  organization_url = "https://www.datacamp.com/"
   title = "Analyzing Police Activity with pandas"
   url = "https://learn.datacamp.com/courses/analyzing-police-activity-with-pandas"
   certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/78400dc05263fdcaa6cdc178c2b9c8cb435db390"
@@ -28,6 +57,16 @@ date_format = "Jan 1, 2006"
   date_end = ""
   description = ""  
 
+[[item]]
+  organization = "DataCamep"
+  organization_url = "https://www.datacamp.com/"
+  title = "Manipulating Time Series Data in Python"
+  url = "https://learn.datacamp.com/courses/manipulating-time-series-data-in-python"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/6305052cd7f28e858873d8021378ed648993ccef"
+  date_start = "2020-06-23"
+  date_end = ""
+  description = ""
+  
 [[item]]
   organization = "DataCamep"
   organization_url = "https://www.datacamp.com/"
@@ -78,43 +117,6 @@ date_format = "Jan 1, 2006"
   date_end = ""
   description = ""
 
-[[item]]
-  organization = "DataCamep"
-  organization_url = "https://www.datacamp.com/"
-  title = "Manipulating Time Series Data in Python"
-  url = "https://learn.datacamp.com/courses/manipulating-time-series-data-in-python"
-  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/6305052cd7f28e858873d8021378ed648993ccef"
-  date_start = "2020-06-23"
-  date_end = ""
-  description = ""
 
-[[item]]
-  organization = "DataCamep"
-  organization_url = "https://www.datacamp.com/"
-  title = "Manipulating DataFrames with pandas"
-  url = "https://learn.datacamp.com/courses/manipulating-dataframes-with-pandas"
-  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/1fb48bfc1ac7097c4e909eb729360a0eba8cc428"
-  date_start = "2019-06-09"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "DataCamep"
-  organization_url = "https://www.datacamp.com/"
-  title = "Python Data Science Toolbox (Part 1)"
-  url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-1"
-  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/e4c939a93e674e69dbc4708c29838d2e3ebb5c57"
-  date_start = "2019-06-02"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "DataCamep"
-  organization_url = "https://www.datacamp.com/"
-  title = "Python Data Science Toolbox (Part 2)"
-  url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-2"
-  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/b07d434ad66d873aa4fe68b21caaebcf2f6c78a0"
-  date_start = "2019-06-20"
-  date_end = ""
-  description = ""  
+ 
 +++
