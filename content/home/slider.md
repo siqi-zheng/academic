@@ -41,7 +41,7 @@ height = ""
 
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "headers/r-header.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
   cta_label = "see relevant certificates"
   cta_url = "/r_certificate"
