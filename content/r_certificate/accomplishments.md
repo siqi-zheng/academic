@@ -78,6 +78,15 @@ date_format = "Jan 2, 2006"
   date_end = ""
   description = ""
 
+[[item]]
+  organization = "DataCamep"
+  organization_url = "https://www.datacamp.com/"
+  title = "Visualizing Time Series Data in R"
+  url = "https://learn.datacamp.com/courses/visualizing-time-series-data-in-r"
+  certificate_url = "  https://www.datacamp.com/statement-of-accomplishment/course/8ba6ae796746d230e43bc1e050a36495acca3605"
+  date_start = "2020-09-08"
+  date_end = ""
+  description = ""
 
 
 +++
