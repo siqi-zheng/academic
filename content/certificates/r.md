@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "DataCamep Certificates"
+title = "R Certificates"
 subtitle = ""
 
 # Date format
@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
   
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Data Visualization with ggplot2 (Part 1)"
   url = "https://www.datacamp.com/"
@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Supervised Learning in R: Classification"
   url = "https://www.datacamp.com/"
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   description = ""
   
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Building Web Applications with Shiny in R"
   url = "https://www.datacamp.com/"
@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Building Dashboards with flexdashboard"
   url = "https://www.datacamp.com/"
@@ -59,7 +59,7 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Reporting with R Markdown"
   url = "https://www.datacamp.com/"
@@ -69,7 +69,7 @@ date_format = "Jan 2006"
   description = ""  
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Modeling with Data in the Tidyverse"
   url = "https://www.datacamp.com/"
