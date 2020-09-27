@@ -31,7 +31,7 @@ height = ""
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
   cta_label = "See honors & awards"
-  cta_url = "/honor"
+  cta_url = "certificates/#award"
   cta_icon_pack = "fas"
   cta_icon = "award"
 
