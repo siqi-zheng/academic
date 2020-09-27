@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "DataCamp Certificates"
+title = "Python Certificates"
 subtitle = ""
 
 # Date format
@@ -19,7 +19,7 @@ date_format = "Jan 1, 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Analyzing Police Activity with pandas"
   url = "https://learn.datacamp.com/courses/analyzing-police-activity-with-pandas"
@@ -29,7 +29,7 @@ date_format = "Jan 1, 2006"
   description = ""  
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Time Series Analysis in Python"
   url = "https://learn.datacamp.com/courses/time-series-analysis-in-python"
@@ -39,7 +39,7 @@ date_format = "Jan 1, 2006"
   description = ""  
   
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Visualizing Time Series Data in Python"
   url = "https://learn.datacamp.com/courses/visualizing-time-series-data-in-python"
@@ -49,7 +49,7 @@ date_format = "Jan 1, 2006"
   description = ""
   
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Machine Learning for Time Series Data in Python"
   url = "https://learn.datacamp.com/courses/machine-learning-for-time-series-data-in-python"
@@ -59,7 +59,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "ARIMA Models in Python"
   url = "https://learn.datacamp.com/courses/arima-models-in-python"
@@ -69,7 +69,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Cleaning Data in Python"
   url = "https://learn.datacamp.com/courses/cleaning-data-in-python-archived"
@@ -79,7 +79,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Manipulating Time Series Data in Python"
   url = "https://learn.datacamp.com/courses/manipulating-time-series-data-in-python"
@@ -89,7 +89,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Manipulating DataFrames with pandas"
   url = "https://learn.datacamp.com/courses/manipulating-dataframes-with-pandas"
@@ -99,7 +99,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Python Data Science Toolbox (Part 1)"
   url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-1"
@@ -109,7 +109,7 @@ date_format = "Jan 1, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Python Data Science Toolbox (Part 2)"
   url = "https://learn.datacamp.com/courses/python-data-science-toolbox-part-2"
