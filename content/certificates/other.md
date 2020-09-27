@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "DataCamep Certificates"
+title = "Other Certificates"
 subtitle = ""
 
 # Date format
@@ -19,7 +19,7 @@ date_format = "Jan 2, 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
   
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Introduction to SQL"
   url = "https://learn.datacamp.com/courses/introduction-to-sql"
@@ -29,7 +29,7 @@ date_format = "Jan 2, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Joining Data in SQL"
   url = "https://learn.datacamp.com/courses/joining-data-in-postgresql"
@@ -39,7 +39,7 @@ date_format = "Jan 2, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Introduction to Tableau"
   url = "https://learn.datacamp.com/courses/introduction-to-tableau"
@@ -49,7 +49,7 @@ date_format = "Jan 2, 2006"
   description = ""
 
 [[item]]
-  organization = "DataCamep"
+  organization = "DataCamp"
   organization_url = "https://www.datacamp.com/"
   title = "Data Analysis in Excel"
   url = "https://learn.datacamp.com/courses/data-analysis-in-excel"
