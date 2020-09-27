@@ -50,7 +50,7 @@ height = ""
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
   cta_label = "See relevant certificates"
-  cta_url = "/python_certificate"
+  cta_url = "certificates/#python"
   cta_icon_pack = "fab"
   cta_icon = "python"
 
@@ -64,7 +64,7 @@ height = ""
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
   cta_label = "See relevant certificates"
-  cta_url = "/r_certificate"
+  cta_url = "certificates/#r"
   cta_icon_pack = "fab"
   cta_icon = "r-project"
   
@@ -78,7 +78,7 @@ height = ""
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
   cta_label = "See relevant certificates"
-  cta_url = "/other_certificate"
+  cta_url = "certificates/#other"
   cta_icon_pack = "fas"
   cta_icon = "database"
 +++
