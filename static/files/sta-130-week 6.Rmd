@@ -1,0 +1,74 @@
+---
+title: "Optional Tutorial Week 6"  
+author:   
+  - Siqi Zheng  
+institute:   
+  - Department of Statistical Science   
+  - University of Toronto
+date: Academic year 2020-2021  
+output:   
+  beamer_presentation:
+    theme: "Boadilla"
+    keep_tex: yes
+header-includes:
+  - \usepackage{multicol}
+  - \AtBeginSubsection{}   
+---
+
+## Possible Topics for Today
+
+- Q & A Session 
+- Hypothesis Testing vs Bootstrap Sampling
+
+# Q & A Session
+
+
+## Course Materials?
+
+- Assignments
+- Project Procedure
+- ...
+
+# Hypothesis Testing vs Bootstrap Sampling
+
+## Similarities
+
+- Both bootstrapping and traditional methods use samples to draw inferences about populations. 
+
+## Characteristics of Hypothesis Testing
+
+- Traditional hypothesis testing procedures require equations that estimate sampling distributions using the properties of the sample data, the experimental design, and a test statistic. 
+
+- Requires proper test statistic and certain __assumptions__. 
+
+- For example, t-test requires the assumption that the population follows a normal distribution.
+
+## Characteristics of Bootstrap Sampling
+
+- This method takes the sample data that a study obtains, and then resamples it over and over to create many simulated samples. 
+
+- Each of these simulated samples has its own properties. When you graph the distribution of these means on a histogram, you can observe the sampling distribution of the mean. 
+
+- Don’t need to worry about test statistics, formulas, and assumptions.
+
+- No new data are created in this process.
+
+## Bootstrap Sampling Method
+
+1. The bootstrap method has an equal probability of randomly drawing each original data point for inclusion in the resampled datasets.
+
+2. The procedure can select a data point more than once for a resampled dataset. This property is the “with replacement” aspect of the process.
+
+## Assumptions for Bootstrap?
+
+__Representative Sample__: This method treats the original sample as a proxy for the real population and then draws random samples from it. Consequently, the central assumption for bootstrapping is that the original sample accurately represents the actual population.
+
+## Why Bootstrap?
+
+- When it is not feasible to obtain other samples from a population.
+
+- When we do not want to make assumptions about the population distribution.
+
+## Reference
+
+Frost, J. (2020, June 12). Introduction to Bootstrapping in Statistics with an Example. Retrieved October 22, 2020, from https://statisticsbyjim.com/hypothesis-testing/bootstrapping/
