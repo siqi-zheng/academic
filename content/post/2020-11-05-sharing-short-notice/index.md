@@ -1,5 +1,5 @@
 ---
-title: Week 7 Tutorial (Bootstrapping)
+title: Week 6 Tutorial (Bootstrapping)
 draft: false
 authors: 
   - Siqi Zheng
