@@ -45,7 +45,7 @@ links:
 #   url: https://github.com/rstudio-education/sharing-short-notice
 ---
 
-> This tutorial was designed to illustrate a sample slide for teaching bootstrap sampling using .Rmd file.
+> This tutorial was designed to illustrate a sample beamer presentation created from .Rmd file for teaching bootstrap sampling.
 
 Teaching bootstrapping to students who were new to statistics can be difficult, especially when they were taught about hypothesis testing (z-test) before bootstrapping. During my actual practice, I found it useful to discuss the similarities between these two methods then the differences. 
 
