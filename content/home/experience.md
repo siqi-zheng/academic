@@ -24,8 +24,10 @@ title = "Teaching Assistant"
   company_url = "https://www.statistics.utoronto.ca/"
   location = "Toronto"
   date_start = "2020-09-06"
-  date_end = "Present"
-  description = """Course: STA130H1F
+  date_end = ""
+  description = """
+  
+  Course: STA130H1F
   
   Supervisors: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
 
