@@ -1,5 +1,5 @@
 ---
-title: Sharing on Short Notice
+title: Week 7 Tutorial (Bootstrapping)
 draft: false
 authors: 
   - Siqi Zheng
