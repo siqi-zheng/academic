@@ -17,6 +17,27 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+title = "Teaching Assistant"
+  company = "Department of Statistical Sciences, University of Toronto"
+  company_url = "https://www.statistics.utoronto.ca/"
+  location = "Toronto"
+  date_start = "2020-09-06"
+  date_end = "Present"
+  description = """Course: STA130H1F
+  
+  Supervisors: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
+
+  Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
+
+  • Lead discussion-based tutorials
+  • Develop students’ skills in Critical Reading and Reflection, Academic Writing, Solving Statistical Problems
+  • Monitor review and Q&A tutorials
+  • Support grading and provide constructive feedbacks
+  • Adapt teaching techniques to create a comfortable and inclusive learning environment
+  """
+
 [[experience]]
   title = "Volunteer"
   company = "Clinton Street Junior Public School"
@@ -51,5 +72,7 @@ title = "Intern"
   * Applied data visualization techniques to present data creatively
   * Received high evaluation from the Hiring Manager
   """
+  
+
 
 +++
