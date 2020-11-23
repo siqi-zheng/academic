@@ -33,6 +33,8 @@ title = "Teaching Assistant"
 
   Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
 
+  Selected Contributions:
+
   * Lead discussion-based tutorials
   * Develop students’ skills in Critical Reading and Reflection, Academic Writing, Solving Statistical Problems
   * Monitor review and Q&A tutorials
