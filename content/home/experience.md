@@ -25,13 +25,7 @@ title = "Teaching Assistant"
   location = "Toronto"
   date_start = "2020-09-06"
   date_end = ""
-  description = """
-  
-  Course: STA130H1F
-  
-  Supervisors: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
-
-  Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
+  description = """Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
 
   Selected Contributions:
 
@@ -40,6 +34,10 @@ title = "Teaching Assistant"
   * Monitor review and Q&A tutorials
   * Support grading and provide constructive feedbacks
   * Adapt teaching techniques to create a comfortable and inclusive learning environment
+  
+  Course: STA130H1F
+  
+  Supervisors: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
   """
 
 [[experience]]
