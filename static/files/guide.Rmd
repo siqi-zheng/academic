@@ -1,0 +1,129 @@
+---
+title: "Optional Tutorial Revision Guide"  
+author:   
+  - Siqi Zheng  
+institute:   
+  - Department of Statistical Science   
+  - University of Toronto
+date: Academic year 2020-2021  
+output:   
+  beamer_presentation:
+    theme: "Boadilla"
+    keep_tex: yes
+header-includes:
+  - \usepackage{multicol}
+  - \AtBeginSubsection{}   
+---
+
+## Topics for Today
+
+- Review Plan 
+- Topic-based
+- Tips
+
+# Q & A Session
+
+
+## Course Materials?
+
+- Assignments
+- Project Procedure
+- ...
+
+# How to Set up a Review Plan
+
+## Leaning Objectives
+
+1. Describe how statistical methods
+can be used to learn from data,
+including methods for
+description, explanation, and
+prediction.
+
+2. Carry out a variety of statistical
+analyses in R and interpret the
+results of the analyses.
+
+3. Implement the computational
+steps involved in the
+management and statistical
+analysis of data using R.
+
+## Continue...
+
+4. Identify appropriate uses of
+statistical methods to answer
+questions, including their
+strengths and weaknesses.
+
+5. Clearly communicate the results
+of statistical analyses to technical
+and non-technical audiences.
+
+## Before having a plan
+
+- Goal
+
+- Focus
+
+- Specific
+
+- Evaluate
+
+- Reward
+
+## Concept (1)
+
+- Definition?
+
+- Importance? Application? (4)
+
+- Common misconception?
+
+## Data Wrangling (3)
+
+- Relevant definition in technical terms and plain English? (5)
+
+- Importance? 
+
+- The goal of data cleaning?
+
+- __How do I do it in R?__ 
+
+- __Can I interpret the results in R?__
+
+## Visualization (2)
+
+- What are the graphs?
+
+- How do I produce the graphs in R?
+
+- __What are the functions and what does the argument in the function mean?__
+
+- __How do I interpret the graphs?__
+
+## Statistical Method (1) (3)
+
+- Definition in technical terms and plain English? (5)
+
+- Importance? (4)
+
+- Application in real life? (4)
+
+- __How do I do it in R?__ Can I connect the method to the visualization?
+
+- Common misconception?
+
+- __Can I interpret the results in R?__ (5)
+
+- Limitations? (4)
+
+## Tips
+
+- Start early
+
+- Ask questions
+
+## Nominate a TA?
+
+https://tatp.utoronto.ca/awards/ta-awards/student-nomination/
