@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 15  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -35,9 +35,11 @@ title = "Teaching Assistant"
   * Support grading and provide constructive feedbacks
   * Adapt teaching techniques to create a comfortable and inclusive learning environment
   
-  Course: STA130H1F
+  Course: STA130H1F 2020 & STA130H1S 2021
   
-  Supervisors: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
+  Supervisors: 
+  * STA130H1F 2020: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
+  * STA130H1S 2021: [Samantha-Jo Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
   """
 
 [[experience]]
