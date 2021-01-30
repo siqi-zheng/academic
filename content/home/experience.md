@@ -25,12 +25,14 @@ title = "Teaching Assistant"
   location = "Toronto"
   date_start = "2020-09-06"
   date_end = ""
-  description = """Courses & Supervisors: 
+  description = """Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
+  
+  Courses & Supervisors: 
   
   * STA130H1F 2020: [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
   * STA130H1S 2021: [Samantha-Jo Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano/liza-bolton) & [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
   
-  Collaborate with professors to prepare and deliver high-quality tutorials for first-year students in Statistics. Explore innovative teaching methods and evaluate students' works.
+
 
   Selected Contributions:
 
@@ -65,7 +67,7 @@ title = "Data Analyst Intern"
   location = "Foshan"
   date_start = "2018-05-01"
   date_end = "2018-08-31"
-  description = """Handled data visualization via Tableau for quarterly meeting and switched to the department of digital marketing, investigating topics to expanding the influence on social media and predicting user behaviors from the available data
+  description = """Handled data visualization via Tableau for quarterly meeting and switched to the department of digital marketing, investigating topics to expanding the influence on social media and predicting user behaviors from the available data.
   
   Selected Contributions:
   
