@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Student|Teaching Assistant@UofT
+role: Student|Teaching Assistant
 
 # Organizations/Affiliations
 organizations:
