@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Student of Applied Statistics with focuses on Economics and Physics
+role: Student|Teaching Assistant@UofT
 
 # Organizations/Affiliations
 organizations:
@@ -18,12 +18,12 @@ organizations:
   url: https://www.utoronto.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Financial Application of Statistics and the ethical implications of Statistics. I am also a Tarot reader.
+bio: My research interests include Financial Application of Statistics and the education of Statistics. 
 
 interests:
 - Applied Statistics in Finance
 - Portfolio Management
-- Philosophy
+- Education
 
 education:
   courses:
@@ -67,6 +67,8 @@ email: ""
 # - Visitors
 ---
 
-Siqi Zheng is a student of Applied Statistics/Economics at University of Toronto, St. George Campus. His research interests include Applied Statistics in Finance. financial models in Portfolio Management and the combined field of Philosophy and Data Science. He is a Dean's List Scholar in UofT. He receives The John A Sawyer Scholarship and The Roy Alvin Hope Scholarship from Victoria College.
+Siqi Zheng is a student of Applied Statistics/Economics at University of Toronto, St. George Campus. His research interests include Applied Statistics in Finance, financial models in Portfolio Management and the combined field of Philosophy and Data Science. He is also a teaching assistant for STA130H1F 2020 and STA130H1S 2021.
+
+He is a Dean's List Scholar in UofT. He receives The John A Sawyer Scholarship and The Roy Alvin Hope Scholarship from Victoria College, University of Toronto.
 
 
