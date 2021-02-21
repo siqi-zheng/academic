@@ -17,7 +17,7 @@ all_day: false
 categories:
   - education
 tags:
-  - statistic
+  - statistics
 featured: yes
 image:
   caption: '[Illustration by Matt Briney](https://negativespace.co/workshop-desk-print-paper-vintage/)'
