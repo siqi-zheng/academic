@@ -9,7 +9,7 @@ output:
     dev: "svg"
 ---
 
-```{r include = FALSE}
+```{r echo = FALSE}
 knitr::opts_chunk$set()
 ```
 
