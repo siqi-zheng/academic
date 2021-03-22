@@ -2,16 +2,8 @@
 title: A Guide for Focuses in Applied Statistics
 author: Siqi Zheng
 date: '2021-02-06'
-output:
-  blogdown::html_page:
-    toc: true
-    fig_width: 6
-    dev: "svg"
+slug: regression-analysis
 ---
-
-```{r echo = FALSE}
-knitr::opts_chunk$set()
-```
 
 ![Photo by Timur Kozmenko on Unsplash](featured.jpg)
 
