@@ -1,5 +1,5 @@
 ---
-title: 'Learning Stats at UofT #6: Critical Analysis and Problem Solving'
+title: 'Learning Stats at UofT #7: Detail-oriented and Communication Skills'
 draft: false
 authors: 
   - Siqi Zheng
