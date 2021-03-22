@@ -27,6 +27,8 @@ I am a student in Applied Statistics Specialist, or Method and Application, at U
 
 # A Dialogic Way to Introduce MLE
 
+Imagine you walk into Starbucks at Robarts Library, and you meet one of your TAs from STA257. Now you may want to say hi to this TA, but you also want this TA to clarify the concept of MLE. If I were the TA, I would explain the concept of MLE in the following way.
+
 Sure, I can explain the concept of likelihood while we wait in line. In statistics, we often need to estimate the parameter of a model. But how? Well, Maximum Likelihood estimation (MLE) can help. First of all, we need to know likelihood means the probability of a value being the true value of a parameter θ in a model given a set of data. MLE provides a way to find a value θ ̂ with the maximum probability to be θ.
 
 Let’s use an example to illustrate this. Suppose you are interested in a model that describes the waiting time for a customer in this restaurant. Now you can first collect the data of individual waiting time randomly. Then you may assume that the true population of waiting time follows some classical distributions so that we only need to estimate the parameter θ of a known distribution. Then we may be able to use MLE here. Does that make sense so far? 
