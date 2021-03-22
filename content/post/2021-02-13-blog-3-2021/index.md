@@ -6,7 +6,7 @@ authors:
 event: '2020-2021 STA130H1F'
 location: Blog
 abstract: ""
-summary: "The first post in the seris of Learning Stats at UofT"
+summary: "The second post in the series of Learning Stats at UofT"
 
 date: "2021-02-13T09:00:00Z"
 
@@ -19,7 +19,7 @@ featured: yes
 projects: []
 ---
 
-This is the second post of the seris Learning Stats at UofT. In case you did not read my last post, here is the introudction.
+This is the second post of the series Learning Stats at UofT. In case you did not read my last post, here is the introudction.
 
 The fundamental statistics courses at UofT are normally unchanged, at least from my experience in the past three years. Still, I think it is worth devoting some blogs to this topic. Before starting the introduction to courses, I would like to spend some time on the programs offered by DoSS.
 
