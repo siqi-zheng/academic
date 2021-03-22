@@ -6,7 +6,7 @@ authors:
 event: '2020-2021 STA130H1F'
 location: Blog
 abstract: ""
-summary: "The first post in the seris of Learning Stats at UofT"
+summary: "The first post in the series of Learning Stats at UofT"
 
 date: "2021-02-06T09:00:00Z"
 
