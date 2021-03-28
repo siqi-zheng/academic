@@ -25,7 +25,7 @@ The fundamental statistics courses at UofT are normally unchanged, at least from
 
 Now it's approaching the end of semester for me. To reflect back on the past 2020, a lot of things were going on and everyone had a tough time. It was also the time to develop skills to collaborate virtually and be compassionate about other people in workplaces around the world. 
 
-In a data driven world, we are connected by data and the study of data, statistics, is very essential to our day to day life. However, the abuse of statistics also created problems for us .
+In a data driven world, we are connected by data and the study of data, statistics, is very essential to our day to day life. However, the abuse of statistics also created problems for us.
 
 ## Misspecified Models
 
