@@ -8,7 +8,7 @@ location: Blog
 abstract: ""
 summary: "The first note from Learning SQL"
 
-date: "2021-05-28T18:00:00Z"
+date: "2021-05-25T18:00:00Z"
 
 categories:
   - SQL
