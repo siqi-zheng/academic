@@ -1,19 +1,19 @@
 ---
-title: *Learning SQL* Reading Notes #1
+title: 'Learning SQL Notes #1'
 draft: false
 authors: 
   - Siqi Zheng
 event: ''
 location: Blog
 abstract: ""
-summary: "The first note from Learning SQL and comparison with R."
+summary: "The first note from Learning SQL"
 
 date: "2021-05-28T18:00:00Z"
 
 categories:
   - SQL
 tags:
-  - SQL
+  - SQL notes
   - R
 featured: yes
 projects: []
