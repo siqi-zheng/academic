@@ -229,6 +229,6 @@ After processing the create table statement, the MySQL server returns the messag
 ### BOUNUS: NULL?
 
 Null is used for various cases where a value cannot be supplied, such as: 
-• Not applicable 
-• Unknown
-• Empty set
+* Not applicable 
+* Unknown
+* Empty set
