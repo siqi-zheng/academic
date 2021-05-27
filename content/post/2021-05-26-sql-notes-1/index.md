@@ -20,21 +20,20 @@ projects: []
 ---
 
 - [Introduction to Databases](#introduction-to-databases)
-  - [进入数据库](#进入数据库)
-  - [找到那张表](#找到那张表)
-  - [创建表格](#创建表格)
-  - [表格添加行](#表格添加行)
-  - [表格修改某个cell](#表格修改某个cell)
-  - [表格删除某一行](#表格删除某一行)
-  - [查看一张表格](#查看一张表格)
-  - [查看所有表格](#查看所有表格)
-  - [丢弃一张表格](#丢弃一张表格)
-  - [导出XML](#导出xml)
+  - [Find Databases](#find-databases)
+  - [Find a Table](#find-a-table)
+  - [Create a Table](#create-a-table)
+  - [Add a Row](#add-a-row)
+  - [Change a Cell](#change-a-cell)
+  - [Delete a Row](#delete-a-row)
+  - [Table Overview](#table-overview)
+  - [Show Tables](#show-tables)
+  - [Drop a Table](#drop-a-table)
+  - [Export to XML](#export-to-xml)
 - [Table Creation (CH. 2)](#table-creation-ch-2)
   - [1   Design](#1---design)
   - [2   Refinement](#2---refinement)
   - [3   Building SQL Schema Statements](#3---building-sql-schema-statements)
-  - [BOUNUS: NULL?](#bounus-null)
 
 ## Introduction to Databases
 
@@ -50,7 +49,7 @@ projects: []
       ```    
 3. More than one identifiers in a table including the *primary key*: *foreign keys*, connect the entities in different tables;
 4. Make sure that there is only **one place** in the database that holds, say, the customer’s name; otherwise, the data might be changed in one place but not another, causing the data in the database to be unreliable. The process of refining a database design to ensure that each independent piece of information is in only **one place** (except for foreign keys) is known as *normalization*. (Think about the concept of *Tidy Data* in **R**!)
-5. Two-column primary key is also possible depending on the context (CH.2)；
+5. Two-column primary key is also possible depending on the context (CH.2); 
 6. Foreign key constraint limits the id to those exist in another table (CH.2); Possible error:
    ```
    ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails ('sakila'.'favorite_food', CONSTRAINT 'fk_fav_food_person_id' FOREIGN KEY
@@ -69,15 +68,15 @@ projects: []
    ```
 
 
-### 进入数据库
+### Find Databases
 
 To see the see the `mysql>` prompt:
 ```
 mysql -u root -p;
 ```
-Then type `show databases;`; 显示所有数据表
+Then type `show databases;` to display all databases;
 
-### 找到那张表
+### Find a Table
 
 To select a table, type `use table_name;`; 
 
@@ -85,35 +84,35 @@ Can do the following:
 ```
 mysql -u root -p table_name;
 ```
-在**R**中，可以在global environment里面看到。
+In**R**, one can find it under the global environment.
 
-### 创建表格
+### Create a Table
 ```SQL
-CREATE TABLE table_name /*创建表格：……*/
+CREATE TABLE table_name /*Create a table with name: ……*/
     (col_0 smallint;
     col_1 VARCHAR(30);
     col_2 timestamp;
-    CONSTRAINT pk_col_0 PRIMARY KEY (col_0) /*将col_0设为primary key*/
+    CONSTRAINT pk_col_0 PRIMARY KEY (col_0) /*set col_0 as primary key*/
     ); /*The most basic method to create a database*/
 ```
-类比**R**的代码：
+**R** codes: 
 ```R
 df <- data.frame()
 # x1 = c(7, 3, 2, 9, 0),
 # x2 = c(4, 4, 1, 1, 8),
 # x0 = c(5, 3, 9, 2, 4)
-# Primary key可以自行添加
+# Primary key can only be added manually
 ```
 
-### 表格添加行
+### Add a Row
 ```SQL
-INSERT INTO table_name (col_0, col_1, col_2) /*插入*/
-VALUES (27, 'Rdm Name', 'Acme Paper Corporation'); /*什么值*/
+INSERT INTO table_name (col_0, col_1, col_2) /*The table*/
+VALUES (27, 'Rdm Name', 'Acme Paper Corporation'); /*The values*/
 /*The most basic method to insert a full row into a database*/
 ```
 `Query OK, 1 row affected`$\Rightarrow$one row was added to the database
 
-类比**R**的代码：
+**R** codes: 
 ```r
 new_row <- c(27, 'Rdm Name', 'Acme Paper Corporation')
 rbind(df, new_row)
@@ -127,37 +126,38 @@ rbind(df, new_row)
 
 
 
-### 表格修改某个cell
+### Change a Cell
+
 ```SQL
 UPDATE table_name 
-/*规定列*/  /*要输入的值*/
+/*Fix column*/  /*Insert the values*/
 SET name = 'Certificate of Deposit'
-WHERE col_2 = 'CD'; /*规定行,否则整列都被换掉*/
+WHERE col_2 = 'CD'; /*Fix row, otherwise all will be replaced*/
 ```
-类比**R**的代码：
+**R** codes: 
 ```r
 df[df$col_2=='CD', "name"] <- 'Certificate of Deposit'
-# 规定行，规定列
+# Fix column, fix row
 ```
 
-### 表格删除某一行
+### Delete a Row
 
 ```SQL
 DELETE ...
-/*规定列*/  /*要输入的值*/
+/*Fix column*/
 FROM table_name
-WHERE col_2 = 'CD'; /*规定行,否则整列都被删掉*/
+WHERE col_2 = 'CD'; /*Fix row, otherwise all will be deleted*/
 ```
-类比**R**的代码：
+**R** codes: 
 ```r
 df[df$col_2=='CD', ] <- NULL
 ```
 
-### 查看一张表格
+### Table Overview
 ```SQL
 DESC favorite_food;
 ```
-类比**R**的代码：
+**R** codes: 
 ```r
 str(df)
 summary(df)
@@ -166,18 +166,18 @@ glimpse(df)
 
 Describe the table.
 
-### 查看所有表格
+### Show Tables
 ```SQL
 show tables
 ```
 
-### 丢弃一张表格
+### Drop a Table
 ```SQL
 drop table xxx
 ```
 
 
-### 导出XML
+### Export to XML
 
 Type the following in CMD:
 
@@ -201,15 +201,15 @@ No easy way to do so in **R**.
 What info is needed? Make a list.
 
 ### 2   Refinement
-1. Compound objects要分开。比如姓和名，地址等；
-2. 如果一列中有数量不等的独立个体，则再开一张表；
-3. 是否有guarantee uniqueness的primary key column？
+1. Compound objects need to be separated into multiple columns, including names or address;
+2. If a column is a list containing zero, one, or more independent items, we need another table;
+3. Need primary key column(s) to guarantee uniqueness.
 
 
 ### 3   Building SQL Schema Statements
-见创建表格。
 
 Another type of constraint called a **check constraint** constrains the allowable values for a particular column. A check constraint to be attached to a **column definition**.
+
 ```SQL
 eye_color CHAR(2) CHECK (eye_color IN ('BR','BL','GR'))
 ```
@@ -224,11 +224,5 @@ MySQL does provide another character data type called `enum` that merges the che
 eye_color ENUM('BR','BL','GR')
 ```
 
-After processing the create table statement, the MySQL server returns the message “Query OK, 0 rows affected,” which tells me that the statement had no **syntax errors**.
+After processing the create table statement, the MySQL server returns the message "Query OK, 0 rows affected," which tells me that the statement had no **syntax errors**.
 
-### BOUNUS: NULL?
-
-Null is used for various cases where a value cannot be supplied, such as: 
-* Not applicable 
-* Unknown
-* Empty set
