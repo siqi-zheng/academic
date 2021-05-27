@@ -18,14 +18,14 @@ tags:
 featured: yes
 projects: []
 ---
-- [字符串](#字符串)
-- [数值](#数值)
-- [日期数据](#日期数据)
-- [BOUNS: 找到当前时间](#bouns-找到当前时间)
+- [Character Data](#character-data)
+- [Numeric Data](#numeric-data)
+- [Temporal Data](#temporal-data)
+- [BOUNS: Find Current Time](#bouns-find-current-time)
 
 
 
-### 字符串
+### Character Data
 
 ```SQL
 char(20) /* fixed-length */
@@ -35,15 +35,16 @@ No easy way to constrain the length of character in **R**, but one can try `stri
 
 Note:
 
-1. 长度超过限制就会被删掉；
-2. 前后空格**不会**被删掉；
-3. sort/group只会用字符串的前1024bytes 。
+1. If the data being loaded into a text column exceeds the maximum size for that type, the data will be truncated;
+2. Trailing spaces **will not** be removed when data is loaded into the column; 
+3. When using text columns for sorting or grouping, only the first 1,024 bytes are used, although this limit may be increased if necessary.
+
 
 ```SQL
 CREATE DATABASE european_sales CHARACTER SET latin1;
 ```
 
-### 数值
+### Numeric Data
 1. Boolean: 0 False, 1 True.
 2. System-generated primary keys: 1 to $\infin$, integers;
    ```SQL
@@ -64,7 +65,7 @@ CREATE DATABASE european_sales CHARACTER SET latin1;
    smallint −32,768 to 32,767 
    smallint unsigned 0 to 65,535
    ```
-   unsigned只取正值；
+   unsigned takes only positive values；
 4. High-precision scientific or manufacturing data; 
    ```SQL
    float( p , s ) −3.402823466E+38 to −1.175494351E-38 and 1.175494351E-38 to 3.402823466E+38
@@ -74,7 +75,7 @@ CREATE DATABASE european_sales CHARACTER SET latin1;
    ```
     p, s are optional parameters, precision (the total number of allowable digits both to the left and to the right of the decimal point) and a scale (the number of allowable digits to the right of the decimal point), left digits = p - s.
 
-### 日期数据
+### Temporal Data
 
 * The **future date** that a particular event is expected to happen, such as shipping a customer’s order
   ```SQL
@@ -101,17 +102,17 @@ CREATE DATABASE european_sales CHARACTER SET latin1;
   time HHH:MI:SS −838:59:59.000000 to 838:59:59.000000
   ```
 
-### BOUNS: 找到当前时间
+### BOUNS: Find Current Time
 
 To find the current data/time:
 ```SQL
 SELECT now();
-/*2019-04-04 20:44:26 不含时区*/
+/*2019-04-04 20:44:26 Timezone not included*/
 ```
-类比**R**的代码：
+**R** codes：
 ```r
 sys.time()
-# "2021-05-25 10:58:06 EDT", 含时区
+# "2021-05-25 10:58:06 EDT", Timezone included
 ```
 
 If Oracle, add `FROM dual;`;(Think about *dummy variable*!)
