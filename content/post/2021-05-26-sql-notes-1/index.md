@@ -20,6 +20,7 @@ projects: []
 ---
 
 - [Introduction to Databases](#introduction-to-databases)
+  - [More about Relational Databases](#more-about-relational-databases)
   - [Find Databases](#find-databases)
   - [Find a Table](#find-a-table)
   - [Create a Table](#create-a-table)
@@ -36,6 +37,17 @@ projects: []
   - [3   Building SQL Schema Statements](#3---building-sql-schema-statements)
 
 ## Introduction to Databases
+
+* SQL was initially created to be the language for generating, manipulating, and retrieving data from relational databases.
+* A database is a set of related information. 
+* *Database systems* are computerized data storage and retrieval mechanisms.
+* *Nonrelational Database Systems*: 
+  * In a *hierarchical* database system, for example, data is represented as one or more tree structures. The hierarchical database system provides tools for locating a particular customer’s tree and then traversing the tree to find the desired accounts and/or transactions. Each node in the tree may have either zero or one parent and zero, one, or many children. 
+  * *Network database system* exposes sets of records and sets of links that define relationships between different records.
+* Data can  be represented as sets of *tables*. Rather than using pointers to navigate between related entities, redundant data is used to link records in different tables: *relational model*.
+
+
+### More about Relational Databases
 
 1. Now columns/rows are constrained due to *physical limit* or *maintainability*;
 2. *Primary key* includes information that **uniquely identifies** a row in that table;
@@ -223,6 +235,26 @@ MySQL does provide another character data type called `enum` that merges the che
 ```SQL
 eye_color ENUM('BR','BL','GR')
 ```
+
+**R** codes: 
+```r
+Enum <- function(...) {
+
+  ## EDIT: use solution provided in comments to capture the arguments
+  values <- sapply(match.call(expand.dots = TRUE)[-1L], deparse)
+
+  stopifnot(identical(unique(values), values))
+
+  res <- setNames(seq_along(values), values)
+  res <- as.environment(as.list(res))
+  lockEnvironment(res, bindings = TRUE)
+  res
+}
+
+FRUITS <- Enum(APPLE, BANANA, MELON)
+```
+
+See https://stackoverflow.com/questions/33838392/enum-like-arguments-in-r for further details.
 
 After processing the create table statement, the MySQL server returns the message "Query OK, 0 rows affected," which tells me that the statement had no **syntax errors**.
 
