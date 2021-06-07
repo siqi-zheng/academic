@@ -372,3 +372,7 @@ now()
 * Generate result sets that can be joined to other tables (or subqueries) in a query 
 * Can be used to generate values to populate a table or to populate columns in a query’s result set
 * Are used in the select, from, where, having, and order by clauses of queries
+
+Happy learning!
+
+![](2.jpg)
