@@ -29,7 +29,7 @@ plot(fit)
 
 ![](test_files/figure-html/unnamed-chunk-1-1.png)
 
-![](test_files/figure-html/unnamed-chunk-1-2.png
+![](test_files/figure-html/unnamed-chunk-1-2.png)
 
 ![](test_files/figure-html/unnamed-chunk-1-3.png)
 
