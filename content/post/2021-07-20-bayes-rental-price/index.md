@@ -21,7 +21,7 @@ projects: []
 
 ## Data Preparation
 
-According to a recent research in the distribution of housing price in Tokyo (OHNISHI, MIZUNO, SHIMIZU & WATANABE, 2011), the housing price follows a lognormal distribution. Therefore we would like to examine if an exponential model works for the mean rental price $\mu_{ij}$ of type j at year i in Toronto and the covariates (year and unit size) are exponential. Data were adapted from Canada Mortgage and Housing Corporation (2021). For copyrights reasons, data will not be attached on GitHub. The link to the dataset can be found under Bibliography Section. An overview of the data is provided below. 
+According to a research in the distribution of housing price in Tokyo (OHNISHI, MIZUNO, SHIMIZU & WATANABE, 2011), the housing price follows a lognormal distribution. Therefore we would like to examine if an exponential model works for the mean rental price $\mu_{ij}$ of type j at year i in Toronto with two predictors (year and unit size). Data were adapted from Canada Mortgage and Housing Corporation (2021). For copyrights reasons, the dataset will not be attached on GitHub. The link to the dataset can be found under Bibliography Section. An overview of the data is provided below. 
 
 
 ```r
@@ -36,6 +36,7 @@ library(loo)
 library(extraDistr)
 library(cmdstanr)
 library(posterior)
+# html widgets
 library(kableExtra)
 ```
 
@@ -76,6 +77,7 @@ hist(log(df_bay_2016$rent),  main='Distribution of Log Mean Rental Prices in Nei
 ```
 
 ![](dist-2.png)<!-- -->
+
 ## Two Matematically Equivalent Approaches
 
 We consider the following equivalent approaches and test if both models agree with each other.
