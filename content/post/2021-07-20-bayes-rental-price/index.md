@@ -13,10 +13,8 @@ category:
   
   
 date: "2021-07-20T01:00:00Z"
+featured: yes
 projects: []
-output:
-  html_document:
-    keep_md: true
 ---
 
 
@@ -91,10 +89,15 @@ Approach 2: $log(\mu_{ij})\sim Nnormal((b_{0j}+\beta_0)+(b_{1j}+\beta_1)x_i,\sig
 where
 
 $b_{0j}$: Random intercept due to j type of unit size;
+
 $\beta_0$: Baseline intercept, which may have no practical meaning;
+
 $x_i$: Variable year i, ranging from 2011 to 2020;
+
 $b_{1j}$: Random slope due to j type of unit size;
+
 $\beta_1$: Coefficient of variable year;
+
 $\sigma^2$: Actual variation in rental price.
 
 ## Priors
@@ -102,10 +105,15 @@ $\sigma^2$: Actual variation in rental price.
 Weakly informative priors are chosen based on our belief in the baseline price of a studio at the intercept, which is around 700 Canadian dollars per month, in Toronto. Moreover, we expect the unit size has small effects on the intercept (normal distribution is chosen for this reason). At the same time, we also want to ensure that we do not miss the possibility of large parameters with Cauchy distribution as priors: 
 
 $\beta_0\sim N(700,100)$
+
 $b_{0j}\sim N(0,1)$
+
 $b_{1j}\sim N(0,{\tau_1}^2 )$
+
 $\beta_1\sim N(0,{\tau_2}^2 )$
+
 ${\tau_1}^2,{\tau_2}^2,\sigma\sim Cauchy(0,1)$
+
 $Cov(b_{0j},b_{1j})\sim Cholesky LKJ Correlation Distribution(1.5)$
 
 Note: Prior Predictive Check is not the main focus of this project, so it is omitted to save space for the model comparison below. One should, however, conduct prior predictive check to be more rigorous.
@@ -365,7 +373,9 @@ data.frame(ranef(mod_2))  %>%
 Key Findings for both models:
 
 * The rental price increases by around 5.6% each year on average, higher than the inflation rate 3.6 % in Canada;
+
 * The baseline price for 3-bedroom apartment is 73% higher than a Studio, so a hierarchy model is necessary;
+
 * The slope does not vary much for each room type, so a random intercept model may be sufficient for analysis.
 
 ## Posterior Predictive Check (Density)
