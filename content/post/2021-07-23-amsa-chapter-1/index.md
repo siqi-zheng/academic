@@ -79,7 +79,7 @@ The extended Cauchy-Schwarz inequality gives rise to the following maximization 
 $$
 \max _{\mathbf{x} \neq \boldsymbol{\theta}} \frac{\left(\mathbf{x}^{\prime} \mathbf{d}\right)^{2}}{\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}}=\mathbf{d}^{\prime} \mathbf{B}^{-\mathbf{1}} \mathbf{d}
 $$
-with the maximum attained when $\underset{(p \times 1)}{\mathbf{x}}=\underset{(p \times p)\langle p \times 1)}{\mathbf{d}}$ for any constant $c \neq 0$. Proof. By the extended Cauchy-Schwarz inequality, $\left(\mathbf{x}^{\prime} \mathbf{d}\right)^{2} \leq\left(\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}\right)\left(\mathbf{d}^{\prime} \mathbf{B}^{-1} \mathbf{d}\right)$.
+with the maximum attained when $\underset{(p \times 1)}{\mathbf{x}}=\underset{(p \times p)( p \times 1)}{\mathbf{d}}$ for any constant $c \neq 0$. Proof. By the extended Cauchy-Schwarz inequality, $\left(\mathbf{x}^{\prime} \mathbf{d}\right)^{2} \leq\left(\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}\right)\left(\mathbf{d}^{\prime} \mathbf{B}^{-1} \mathbf{d}\right)$.
 Because $\mathbf{x} \neq \mathbf{0}$ and $\mathbf{B}$ is positive definite, $\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}>0$. Dividing both sides of the
 inequality by the positive scalar $\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}$ yields the upper bound
 $$
@@ -90,7 +90,7 @@ Taking the maximum over $\mathbf{x}$ gives Equation $(2-50)$ because the bound i
 
 A final maximization result will provide us with an interpretation of eigenvalues.
 
-**Maximization of Quadratic Forms for Points on the Unit Sphere.** Let $\mathbf{B}$ be a positive definite matrix witl eigenvalues $\lambda_{1} \geq \lambda_{2} \geq \cdots \geq \lambda_{p} \geq 0$ and associated normalized eigenvectors $\mathbf{e}_{\mathbf{1}}, \mathbf{e}_{2}, \ldots, \mathbf{e}_{p}$. Then
+**Maximization of Quadratic Forms for Points on the Unit Sphere.** Let $\mathbf{B}$ be a positive definite matrix with eigenvalues $\lambda_{1} \geq \lambda_{2} \geq \cdots \geq \lambda_{p} \geq 0$ and associated normalized eigenvectors $\mathbf{e}_{\mathbf{1}}, \mathbf{e}_{2}, \ldots, \mathbf{e}_{p}$. Then
 
 $$
 \max _{\mathbf{x} \neq \mathbf{0}} \frac{\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}}{\mathbf{x}^{\prime} \mathbf{x}}=\lambda_{1}\quad \text { (attained when } \mathbf{x}=\mathbf{e}_{1} \text {)}
@@ -101,12 +101,14 @@ $$
 $$
 
 Moreover, 
+
 $$
 \max _{\mathbf{x} \perp \mathbf{e}_{\mathbf{1}},\ldots,\mathbf{e}_{\mathbf{k}}} \frac{\mathbf{x}^{\prime} \mathbf{B} \mathbf{x}}{\mathbf{x}^{\prime} \mathbf{x}}=\lambda_{k+1} \quad \text { (attained when } \mathbf{x}=\mathbf{e}_{k+1} \text {, } k=1,2,\ldots,p-1 \text {)}
 $$
 
 where the symbol $\perp$ is read "is perpendicular to.
-Proof. Let $\underset{\langle p \times p\}}{\mathbf{P}}$ be the orthogonal matrix whose columns are the eigenvectors
+
+Proof. Let $\underset{( p \times p)}{\mathbf{P}}$ be the orthogonal matrix whose columns are the eigenvectors
 $\mathbf{e}_{1}, \mathbf{e}_{2}, \ldots, \mathbf{e}_{p}$ and $\mathbf{A}$ be the diagonal matrix with eigenvalues $\lambda_{1}, \lambda_{2}, \ldots, \lambda_{p}$ along the
 main diagonal. Let $\mathbf{B}^{1 / 2}=\mathbf{P} \Lambda^{1 / 2} \mathbf{P}^{\prime}$ and $\underset{(p \times 1)}{\mathbf{y}}=\underset{(p \times p)(p \times 1)}{\mathbf{x}}$.
 Consequently, $\mathbf{x} \neq \boldsymbol{0}$ implies $\mathbf{y} \neq \mathbf{0}$. Thus,
