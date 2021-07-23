@@ -86,7 +86,7 @@ We are going to consider the following two approaches (with brms in R):
 
 Approach 1: $\mu_{ij}\sim lognormal((b_{0j}+\beta_0)+(b_{1j}+\beta_1)x_i,\sigma^2)$ (i.e.family=lognormal())
 
-Approach 2: $log(\mu_{ij})\sim Nnormal((b_{0j}+\beta_0)+(b_{1j}+\beta_1)x_i,\sigma^2)$ 
+Approach 2: $log(\mu_{ij})\sim N((b_{0j}+\beta_0)+(b_{1j}+\beta_1)x_i,\sigma^2)$ 
 
 where
 
@@ -374,6 +374,8 @@ data.frame(ranef(mod_2))  %>%
 
 Key Findings for both models:
 
+* Both models yield similar estimates for both fixed effects and random effects.
+
 * The rental price increases by around 5.6% each year on average, higher than the inflation rate 3.6 % in Canada;
 
 * The baseline price for 3-bedroom apartment is 73% higher than a Studio, so a hierarchy model is necessary;
@@ -450,7 +452,7 @@ plot(loo2b, main = "PSIS diagnostic plot for model 2")
 
 ![](loo-2.png)<!-- -->
 
-Pareto k estimates, which give an indication of how ‘influential’ each point is. The higher the value of k, the more influential the point with K over 0.5 are not good, fortunately there are not influential points for both models.
+Pareto k estimates, which give an indication of how ‘influential’ each point is. The higher the value of k, the more influential the point is. Points with K over 0.5 are not good, fortunately there are not influential points for both models.
 
 ## Conclusion
 
