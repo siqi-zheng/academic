@@ -185,11 +185,11 @@ I have attempted different range of values for the uniform distribution, however
 
     mcmc_hist(fit$draws("C"))
 
-![](dose1-prior-predictive-check-1.png)
+![](img/dose1-prior-predictive-check-1.png)
 
     mcmc_hist(fit$draws("y_pred"))
 
-![](dose1-prior-predictive-check-2.png)
+![](img/dose1-prior-predictive-check-2.png)
 
 #### Posterior Predictive Check for Model on Dose 1 Data
 
@@ -203,7 +203,7 @@ I have attempted different range of values for the uniform distribution, however
 
     ppc_stat(dose1$C, yrep, stat = "min")
 
-![](dose1-posterior-predictive-check-1.png)
+![](img/dose1-posterior-predictive-check-1.png)
 
 #### Leave one out cross validation for dose 1
 
@@ -234,7 +234,7 @@ I have attempted different range of values for the uniform distribution, however
 
     plot(loo1)
 
-![](loo1-1.png)
+![](img/loo1-1.png)
 
 All except five of our points are good from the leave one out cross validation for model. This is not very great, but we may take a look at the estimate of C(0) to determine if we really identify C(0) fairly.
 
@@ -244,11 +244,11 @@ All except five of our points are good from the leave one out cross validation f
 
     mcmc_hist(fit2$draws("C"))
 
-![](dose2-prior-predictive-check-1.png)
+![](img/dose2-prior-predictive-check-1.png)
 
     mcmc_hist(fit2$draws("y_pred"))
 
-![](dose2-prior-predictive-check-2.png)
+![](img/dose2-prior-predictive-check-2.png)
 
 #### Posterior Predictive Check for Model on Dose 2 Data
 
@@ -262,7 +262,7 @@ All except five of our points are good from the leave one out cross validation f
 
     ppc_stat(dose2$C, yrep2, stat = "min")
 
-![](dose2-posterior-predictive-check-1.png)
+![](img/dose2-posterior-predictive-check-1.png)
 
 #### Leave one out cross validation for dose 2
 
@@ -290,7 +290,7 @@ All except five of our points are good from the leave one out cross validation f
 
     plot(loo2)
 
-![](loo2-1.png)
+![](img/loo2-1.png)
 
 ### Dose 3
 
@@ -298,11 +298,11 @@ All except five of our points are good from the leave one out cross validation f
 
     mcmc_hist(fit3$draws("C"))
 
-![](dose3-prior-predictive-check-1.png)
+![](img/dose3-prior-predictive-check-1.png)
 
     mcmc_hist(fit3$draws("y_pred"))
 
-![](dose3-prior-predictive-check-2.png)
+![](img/dose3-prior-predictive-check-2.png)
 
 #### Posterior Predictive Check for Model on Dose 3 Data
 
@@ -316,7 +316,7 @@ All except five of our points are good from the leave one out cross validation f
 
     ppc_stat(dose3$C, yrep3, stat = "min")
 
-![](dose3-posterior-predictive-check-1.png)
+![](img/dose3-posterior-predictive-check-1.png)
 
 #### Leave one out cross validation for dose 3
 
@@ -339,7 +339,7 @@ All except five of our points are good from the leave one out cross validation f
 
     plot(loo3)
 
-![](loo3-1.png)
+![](img/loo3-1.png)
 
 ### Dose 4
 
@@ -347,11 +347,11 @@ All except five of our points are good from the leave one out cross validation f
 
     mcmc_hist(fit4$draws("C"))
 
-![](dose4-prior-predictive-check-1.png)
+![](img/dose4-prior-predictive-check-1.png)
 
     mcmc_hist(fit4$draws("y_pred"))
 
-![](dose4-prior-predictive-check-2.png)
+![](img/dose4-prior-predictive-check-2.png)
 
 #### Posterior Predictive Check for Model on Dose 4 Data
 
@@ -365,7 +365,7 @@ All except five of our points are good from the leave one out cross validation f
 
     ppc_stat(dose4$C, yrep4, stat = "min")
 
-![](dose4-posterior-predictive-check-1.png)
+![](img/dose4-posterior-predictive-check-1.png)
 
 #### Leave one out cross validation for dose 4
 
@@ -388,7 +388,7 @@ All except five of our points are good from the leave one out cross validation f
 
     plot(loo4)
 
-![](loo4-1.png)
+![](img/loo4-1.png)
 
 ### Remarks
 
@@ -399,5 +399,5 @@ From the prior predictive check, we can see the estimated distribution is more h
     vec_c0 <- unlist(c0_estimate)
     hist(vec_c0, breaks=20)
 
-![](unnamed-chunk-2-1.png) 
+![](img/unnamed-chunk-2-1.png) 
 The advantage about estimating C(0) here is that this approach uses all available data and keep the statistical power of all data, since we are conditioning on all data; however, it takes a long time to produce the results. For instance, a laptop with one core will need more than an hour for this task.
