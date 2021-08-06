@@ -9,7 +9,11 @@ abstract: ""
 summary: "The solutions for New Questions in Chapter 1 in Understanding Analysis Second Edition"
 
 date: "2021-08-05T01:00:00Z"
-
+links:
+- icon: images
+  icon_pack: fas
+  name: download
+  url: files/uasol11.pdf
 categories:
   - Course Notes
 tags:
@@ -18,6 +22,8 @@ tags:
 featured: yes
 projects: []
 ---
+
+**Note: There may be LaTex display issues due to blogdown rendering limitations. A complete well-formatted solution can be found by clicking the download icon above.** 
 
 One may notice that most questions in the second edition are the same as those in the first edition. However, there are still some new or modified questions in the latest edition that remain unanswered. 
 
