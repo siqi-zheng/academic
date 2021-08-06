@@ -53,7 +53,7 @@ Source: https://math.stackexchange.com/questions/847465/expressing-bbb-n-as-an-i
 
 As pointed out in the link above, any prime numbers can work here.
 
-$A_1 = \{x: x = 3b, b \in \Bbb N\}$
+$A_1 = \Bbb N \ \{x: x = 3b, b \in \Bbb N\}$
 
 $A_2 = \{3a,a\in A_1\}$
 
