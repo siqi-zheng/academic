@@ -52,10 +52,15 @@ $$
 Source: https://math.stackexchange.com/questions/847465/expressing-bbb-n-as-an-infinite-union-of-disjoint-infinite-subsets
 
 As pointed out in the link above, any prime numbers can work here.
-$A_1 = \{x|x$ is not a multiple of 3, $x \in \Bbb N\}$
+
+$A_1 = \{x: x = 3b, b \in \Bbb N\}$
+
 $A_2 = \{3a,a\in A_1\}$
+
 $A_3 = \{3^2a,a\in A_1\}$
+
 $A_4 = \{3^3a,a\in A_1\}$
+
 $\vdots$
 
 **Exercise 1.2.8.**
@@ -277,17 +282,17 @@ Source: https://www.reddit.com/r/HomeworkHelp/comments/7ruu7u/real_analysis_dens
 
 **Exercise 1.4.8.** Give an example of each or state that the request is impossible. When a request is impossible, provide a compelling argument for why this is the case.
 
-(a) Two sets A and B with $A \cap B = \empty$, supA = supB, $supA \not \in A $ and $supB \not \in B$.
+(a) Two sets A and B with $A \cap B = \emptyset$, supA = supB, $supA \not \in A $ and $supB \not \in B$.
 $A=\{x|x\in I,x\in (0,1)\}$
 $B=\{x|x\in Q,x\in (0,1)\}$
 
 (b) A sequence of nested open intervals $J_1 \supseteq J_2 \supseteq J_3 \supseteq \dots $ with 	$\cap^\infty_{n=1}J_n$ nonempty but containing only a finite number of elements.
 $J_n = (5-1/n,5+1/n), n \in \Bbb N, \cap^\infty_{n=1}J_n=5$
 
-(c) A sequence of nested unbounded closed intervals  $L_1 \supseteq L_2 \supseteq L_3 \supseteq \dots $ with 	$\cap^\infty_{n=1}L_n=\empty$ (An unbounded closed interval has the form $[a,\infty) = \{x \in \Bbb R : x \geq a\}$.)
-$L_n = [n,\infty), n \in \Bbb N, \cap^\infty_{n=1}J_n=\empty$
+(c) A sequence of nested unbounded closed intervals  $L_1 \supseteq L_2 \supseteq L_3 \supseteq \dots $ with 	$\cap^\infty_{n=1}L_n=\emptyset$ (An unbounded closed interval has the form $[a,\infty) = \{x \in \Bbb R : x \geq a\}$.)
+$L_n = [n,\infty), n \in \Bbb N, \cap^\infty_{n=1}J_n=\emptyset$
 
-(d) A sequence of closed bounded (not necessarily nested) intervals $I_1, I_2, I_3, \dots$ with the property that $\cap^N_{n=1} I_n \neq \empty$ for all $N \in \Bbb N$, but $\cap^\infty_{n=1} I_n = \empty$.
+(d) A sequence of closed bounded (not necessarily nested) intervals $I_1, I_2, I_3, \dots$ with the property that $\cap^N_{n=1} I_n \neq \emptyset$ for all $N \in \Bbb N$, but $\cap^\infty_{n=1} I_n = \emptyset$.
 The answer is negative, because then $\cap^N_{n=1} I_n$ for all $N \in \Bbb N$ is a decreasing sequence of non-empty closed and bounded intervals and therefore its intersection is non-empty. 
 
 Source: https://math.stackexchange.com/questions/2619781/intersection-of-a-sequence-of-closed-intervals
