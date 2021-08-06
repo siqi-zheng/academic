@@ -52,14 +52,11 @@ $$
 Source: https://math.stackexchange.com/questions/847465/expressing-bbb-n-as-an-infinite-union-of-disjoint-infinite-subsets
 
 As pointed out in the link above, any prime numbers can work here.
-$
-A_1 = \{x|x$ is not a multiple of 3, $x \in \Bbb N\}$
-$
-A_2 = \{3a,a\in A_1\}\\
-A_3 = \{3^2a,a\in A_1\}\\
-A_4 = \{3^3a,a\in A_1\}\\
-\vdots
-$
+$A_1 = \{x|x$ is not a multiple of 3, $x \in \Bbb N\}$
+$A_2 = \{3a,a\in A_1\}$
+$A_3 = \{3^2a,a\in A_1\}$
+$A_4 = \{3^3a,a\in A_1\}$
+$\vdots$
 
 **Exercise 1.2.8.**
 
@@ -242,9 +239,9 @@ If such a number $c$ existed, we would have $c^2 = 3$.  But there is no rational
 
 **Exercise 1.4.2.** Let $A \subseteq \Bbb R$ be nonempty and bounded above, and let $s \in \Bbb R$ have the property that for all $n \in \Bbb N$, s + 1/n is an upper bound for A and s − 1/n is not an upper bound for A. Show s = supA.
 
-Suppose s is not an upper bound for A. Then $\exist a \in A$ such that $s \lt a$. Take $\delta = a - s$ and $n_0 \in \Bbb N$ to be large enough so that $1/\delta < n_0$ i.e. $1/n_0 < \delta$. By definition, $s+1/n_0$ is an upper bound for $A$, but $s+1/n_0<s+\delta=a\in A$: a contradiction.
+Suppose s is not an upper bound for A. Then $\exists a \in A$ such that $s \lt a$. Take $\delta = a - s$ and $n_0 \in \Bbb N$ to be large enough so that $1/\delta < n_0$ i.e. $1/n_0 < \delta$. By definition, $s+1/n_0$ is an upper bound for $A$, but $s+1/n_0<s+\delta=a\in A$: a contradiction.
 
-Let $\epsilon>0$. Take $n_1 \in \Bbb N$ to be large enough so that $1/\epsilon < n_1$ i.e. $1/n_1 < \epsilon$. By definition, $\exist a \in A$ such that $ s-\epsilon \lt s-1/n_1 \lt a$. Hence s = sup A.
+Let $\epsilon>0$. Take $n_1 \in \Bbb N$ to be large enough so that $1/\epsilon < n_1$ i.e. $1/n_1 < \epsilon$. By definition, $\exists a \in A$ such that $ s-\epsilon \lt s-1/n_1 \lt a$. Hence s = sup A.
 
 **Exercise 1.4.4.** Let $a \lt b$ be real numbers and consider the set $T=\mathbb{Q}\cap[a,b]$. Show $\sup T=b$
 
@@ -302,6 +299,6 @@ By definition, $d$ is an upper bound for A. So it is an upper bound for $E$, bec
 
 Source: https://math.stackexchange.com/questions/2228772/assume-mathbbr-possesses-the-cut-property-and-let-e-be-a-nonempty-that-is-b
 
-If possible, suppose $A$ has the greatest member, say $a'$. Then, $a' \in A \Rightarrow a' \not\in B$. We know $\exist s \in E$ such that $a' \lt s$, since $a'<(a'+s)/2 \in B$, $(a'+s)/2 $ is an upper bound of $S$. This contradiction leads to the fact that $A$ has no greatest member. And so, $B$ has the least member. Hence, the set of upper bounds of a non-empty set 𝑆 bounded above has a least member, which is the completeness axiom in $\Bbb R$. Hence the theorem is proved.
+If possible, suppose $A$ has the greatest member, say $a'$. Then, $a' \in A \Rightarrow a' \not\in B$. We know $\exists s \in E$ such that $a' \lt s$, since $a'<(a'+s)/2 \in B$, $(a'+s)/2 $ is an upper bound of $S$. This contradiction leads to the fact that $A$ has no greatest member. And so, $B$ has the least member. Hence, the set of upper bounds of a non-empty set 𝑆 bounded above has a least member, which is the completeness axiom in $\Bbb R$. Hence the theorem is proved.
 
 Read more: https://www.emathzone.com/tutorials/real-analysis/dedekind-property.html#ixzz72M0m5FcR
