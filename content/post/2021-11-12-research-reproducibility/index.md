@@ -10,10 +10,10 @@ summary: ""
 
 date: "2021-11-12T01:00:00Z"
 categories:
-  - Course Notes
+  - Research (Open Source)
 tags:
   - Mathematics
-  - Real Analysis
+  - Research
 featured: yes
 projects: []
 ---
