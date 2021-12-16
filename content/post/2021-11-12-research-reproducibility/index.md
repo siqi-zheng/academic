@@ -17,7 +17,7 @@ tags:
 links:
 - icon: book
   icon_pack: fas
-  name: slides
+  name: full text
   url: files/reproducibility.pdf
 featured: yes
 projects: []
